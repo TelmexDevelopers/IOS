@@ -1,0 +1,107 @@
+create database country;
+
+
+
+
+create table con_name(
+id int NOT NULL auto_increment,
+paises varchar(10),
+key id(id));
+
+insert into con_name (paises) values("Algeria");
+insert into con_name (paises) values("Argentina");
+insert into con_name (paises) values("Australia");
+insert into con_name (paises) values("Austria");
+insert into con_name (paises) values("Belgium");
+insert into con_name (paises) values("Bolivia");
+insert into con_name (paises) values("Bosnia");
+insert into con_name (paises) values("Brazil");
+insert into con_name (paises) values("Bulgaria");
+insert into con_name (paises) values("Canada");
+insert into con_name (paises) values("Caribbean Islands");
+insert into con_name (paises) values("Chile");
+insert into con_name (paises) values("China");
+insert into con_name (paises) values("Colombia");
+"Costa Rica"
+"Croatia",
+"Cyprus",
+"Czech Republic",
+"Denmark",
+"Dominican Republic",
+"Ecuador",
+"Egypt",
+"El Salvador",
+"Estonia",
+"Finland",
+"France",
+"Germany",
+"Greece",
+"Guatemala",
+"Haiti",
+"Honduras",
+"Hungary",
+"Iceland",
+"India",
+"Indonesia",
+"Iran",
+"Ireland",
+"Israel",
+"Italy",
+"Ivory Coast",
+"Japan",
+"Jordan",
+"Kenya",
+"Kuwait",
+"Latvia",
+"Lebanon",
+"Libya",
+"Lithuania",
+"Luxembourg",
+"Macedonia",
+"Malaysia",
+"Malta",
+"Mauritius",
+"Mexico",
+"Moldavia",
+"Morocco",
+"Netherlands",
+"New Zealand",
+"Nicaragua",
+"Nigeria",
+"Norway",
+"Oman",
+"Pakistan",
+"Panama",
+"Paraguay",
+"Peru",
+"Philippines",
+"Poland",
+"Portugal",
+"Puerto Rico",
+"Romania",
+"Russia",
+"Saudi Arabia",
+"Singapore",
+"Slovakia",
+"Slovenia",
+"South Africa",
+"South Korea",
+"Spain",
+"Sri Lanka",
+"Sweden",
+"Switzerland",
+"Taiwan",
+"Thailand",
+"Tunisia",
+"Turkey",
+"UAE",
+"Ukraine",
+"United Kingdom",
+"Uruguay",
+"USA",
+"Venezuela",
+"Vietnam",
+"West Africa",
+"Yemen",
+"Yugoslavia",
+"Zimbabwe");

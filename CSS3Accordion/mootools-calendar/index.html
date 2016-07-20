@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Mootools calendar development</title>
+
+        <link type="text/css" rel="stylesheet" media="all" href="./css/calendar.css" />
+
+        <script type="text/javascript" src="./javascript/mootools/min/mootools.js"></script>
+        <script type="text/javascript" src="./javascript/mootools/calendar.js"></script>
+        <!--<script type="text/javascript" src="./javascript/mootools/min/calendar.js"></script>-->
+    </head>
+    <body>
+        <h4>Js Mootools Calendar</h4>
+
+        <div id="content">
+            <h2>calendar version 1.0alpha</h2>
+
+            <h4>2 depend instances</h4>
+
+            <img alt="testPositionProblem" src="http://www.mootools.net/assets/images/mootools.png" style="position:absolute;top:280px">
+
+            <div id="calendarPanel">
+                <form id="calendarDemo" method="post" action="" name="">
+                    start: <input id="dateTravelStart" value="" type="text" />
+                    end: <input id="dateTravelEnd" value="" type="text" />
+                </form>
+            </div>
+            <div id="testContent" style="position:relative;padding:8px;border:1px gray dashed">
+                <p>Lorem ipsum dolor sit amet, donec parturient nibh viverra, suspendisse pede mauris donec sit facilisis velit. Dui volutpa</p>
+                <form>
+                    <select name="viewExample">
+                        <option>Select boxes problem</option>
+                        <option>Internet Explorer ftw</option>
+                    </select>
+                </form>
+                <img src="http://www.mootools.net/assets/images/mootools.png" style="position:relative;left:200px">
+            </div>
+            <div id="calendarBoundsDemo" style="margin-top:10px">
+                <form id="calendarBoundsDemo" method="post" action="" name="">
+                    <input id="dateBoundsDemo" value="" type="text" />
+                </form>
+            </div>
+            <script type="text/javascript">
+                window.addEvent('domready', function() {
+                    myCal = new Calendar(
+                        {
+                            dateTravelStart: 'D, d.m.Y',
+                            dateTravelEnd  : 'D, d.m.Y'
+                        },
+                        {
+                            //classes: ['calendar'], // die css Klasse des KalenderLayers und des Buttons
+                            direction: 1, // -1 past, 0 past + future, 1 future
+                            pad:1,
+                            days: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+                            months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+                            //dayLabelLength: 1,
+                            offset: 1, // first day of the week: 0 = sunday, 1 = monday, etc..
+                            tweak: {x: -147, y: 18} // tweak calendar positioning
+                        }
+                    );
+                    var myStart = new Date();
+                    var myEnd   = new Date(myStart.getTime() + 1814400*1000 ); // 3 weeks later
+                    myBoundedCal = new Calendar(
+                        {
+                            dateBoundsDemo: 'Y/m/d'
+                        },
+                        {
+                            //direction: 1, // -1 past, 0 past + future, 1 future
+                            dayLabelLength: 1,
+                            offset: 0, // first day of the week: 0 = sunday, 1 = monday, etc..
+                            bounds: {
+                                start: myStart,
+                                end: myEnd
+                            }
+                        }
+                    );
+                });
+            </script>
+        </div>
+    </body>
+</html>

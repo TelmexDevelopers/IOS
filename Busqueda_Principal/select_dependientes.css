@@ -1,0 +1,13 @@
+#demoIzq, #demoDer {width:200px; size: 12px; background-color:#FFF; color:#666; text-align:center; font-family:Verdana, Geneva, sans-serif;}
+
+#demoDer { float:left; }
+
+select { width:200px; }
+/*.combos_busqueda
+	{
+		width: 200px;
+		font-family:Verdana, Geneva, sans-serif;
+		size: 12px;
+		background-color:#FFF;
+		color:#666;
+		}*/

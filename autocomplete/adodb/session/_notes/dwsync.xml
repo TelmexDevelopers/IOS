@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="adodb-compress-bzip2.php" server="10.94.130.36" local="130103528516757719" remote="130071060000000000" Dst="2" />
+<file name="adodb-compress-gzip.php" server="10.94.130.36" local="130103528517070861" remote="130071060000000000" Dst="2" />
+<file name="adodb-cryptsession.php" server="10.94.130.36" local="130103528517384003" remote="130071060000000000" Dst="2" />
+<file name="adodb-cryptsession2.php" server="10.94.130.36" local="130103528517697145" remote="130071060000000000" Dst="2" />
+<file name="adodb-encrypt-mcrypt.php" server="10.94.130.36" local="130103528517853716" remote="130071060000000000" Dst="2" />
+<file name="adodb-encrypt-md5.php" server="10.94.130.36" local="130103528518166858" remote="130071060000000000" Dst="2" />
+<file name="adodb-encrypt-secret.php" server="10.94.130.36" local="130103528518480000" remote="130071060000000000" Dst="2" />
+<file name="adodb-encrypt-sha1.php" server="10.94.130.36" local="130103528518949713" remote="130071060000000000" Dst="2" />
+<file name="adodb-sess.txt" server="10.94.130.36" local="130103528518949713" remote="130071060000000000" Dst="2" />
+<file name="adodb-session-clob.php" server="10.94.130.36" local="130103528519262855" remote="130071060000000000" Dst="2" />
+<file name="adodb-session-clob2.php" server="10.94.130.36" local="130103528519575997" remote="130071060000000000" Dst="2" />
+<file name="adodb-session.php" server="10.94.130.36" local="130103528519889139" remote="130071060000000000" Dst="2" />
+<file name="adodb-session2.php" server="10.94.130.36" local="130103528520515423" remote="130071060000000000" Dst="2" />
+<file name="adodb-sessions.mysql.sql" server="10.94.130.36" local="130103528520515423" remote="130071060000000000" Dst="2" />
+<file name="adodb-sessions.oracle.clob.sql" server="10.94.130.36" local="130103528520828565" remote="130071060000000000" Dst="2" />
+<file name="adodb-sessions.oracle.sql" server="10.94.130.36" local="130103528522707417" remote="130071060000000000" Dst="2" />
+<file name="crypt.inc.php" server="10.94.130.36" local="130103528523333701" remote="130071060000000000" Dst="2" />
+<file name="session_schema.xml" server="10.94.130.36" local="130103528526465121" remote="130071060000000000" Dst="2" />
+<file name="session_schema2.xml" server="10.94.130.36" local="130103528526465121" remote="130071060000000000" Dst="2" />
+</dwsync>

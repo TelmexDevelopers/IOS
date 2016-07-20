@@ -1,0 +1,23 @@
+
+
+
+	body {
+	font-family:Verdana, Geneva, sans-serif;
+		font-size: 12px;
+		color: #000000;
+	
+	}
+	
+	
+	.Texto_Mediano_Negro {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size: 12px;
+		color: #000000;
+	}
+	
+	.table { 
+         border-collapse: collapse; 
+	        }
+			
+			
+			#estilo-de-tabla {border:silver 1px solid}

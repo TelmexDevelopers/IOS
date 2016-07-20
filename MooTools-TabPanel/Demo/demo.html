@@ -1,0 +1,313 @@
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>Simple MooTools TabPane component</title>
+    <script src="mootools-core-1.4.2.js" type="text/javascript"></script>
+    <script src="../Source/TabPane.js" type="text/javascript"></script>
+    <script src="../Source/TabPane.Extra.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        document.addEvent('domready', function() {
+            var tabPane = new TabPane('demo', {}, function() {
+				var showTab = window.location.hash.match(/tab=(\d+)/);
+				return showTab ? showTab[1] : 0;
+			});
+
+            $('demo').addEvent('click:relay(.remove)', function(e) {
+				// stop the event from bubbling up and causing a native click
+                e.stop();
+                var parent = this.getParent('.tab');
+				// close the tab (closeTab takes care of selecting an adjacent tab) 
+                tabPane.close(parent);
+            });
+
+            $('new-tab').addEvent('click', function() {
+                var title = $('new-tab-title').get('value');
+                var content = $('new-tab-content').get('value');
+
+                if (!title || !content) {
+                    window.alert('Title or content text empty, please fill in some text.');
+                    return;
+                }
+
+                title = new Element('li', {'class': 'tab', text: title}).adopt(new Element('span', {'class': 'remove', html: '&times'}));
+				content = new Element('p', {'class': 'content', text: content}).setStyle('display', 'none');
+				tabPane.add(title, content);
+            });
+        });
+    </script>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        .input-wrapper {
+            padding: .2em;
+            border: 1px #333 solid;
+        }
+        .input-wrapper input, .input-wrapper textarea {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font: inherit;
+            color: inherit;
+            border: 0;
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+            <table width="100" border="0">
+  <tr>
+    <td>Referencia:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="A32-1212-1212" /></td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="AR" /></td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="NUEVA WAL MART DE M&Eacute;XICO" /></td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="NUEVA WAL MART DE M&Eacute;XICO" /></td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="CALLE LECHERIA CHAMPA" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Factibilidad:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="100%" /></td>
+  </tr>
+</table>
+
+<div id="demo">
+    <ul class="tabs">
+        <li class="tab">Sisa </li>
+        <li class="tab">Proyecto Equipamiento </li>
+        <li class="tab">Proyecto de Fibra &Oacute;ptica </li>
+        <li class="tab">Construcci&oacute;n </li>
+    </ul>
+    <p class="content">
+<fieldset>
+    <legend>Informaci&oacute;n Sisa</legend>   
+    <table width="950" border="0">
+  <tr>
+    <td>Empresa:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="NUEVA WAL MART DE M&Eacute;XICO" /></td>
+    <td>Tipo_Serv</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="ALT" /></td>
+    <td>Edo_Serv:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="ECO" /></td>
+    <td>SISA Pend</td>
+    <td><input name="Pendiente" type="checkbox" value="" /></td>
+  </tr>
+  <tr>
+    <td>Empresa_UNINET:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="NUEVA WAL MART DE M&Eacute;XICO" /></td>
+    <td>Edo_Tramo</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="ECO" /></td>
+    <td>Entidad</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="WIFE" /></td>
+    <td>Tramo_Afe</td>
+    <td><input name="Pendiente" type="checkbox" value="" /></td>
+  </tr>
+  <tr>
+    <td>Puntas:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="A" /></td>
+    <td>F Tramo Afe</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="16/04/2012" /></td>
+    <td>Entidad Vig:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Edo Serv</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+  <tr>
+    <td>Direcci&oacute;n:</td>
+    <td><textarea name="direccion" cols="18" rows="1">&nbsp;</textarea></td>
+    <td>Due Date:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="16/04/2012" /></td>
+    <td>Tramo:</td>
+    <td colspan="3"><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+<!-- <td>&nbsp;</td>
+    <td>&nbsp;</td>-->
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Obs_tramo:</td>
+    <td colspan="5"><textarea name="obs_tramo" cols="32" rows="1">&nbsp;</textarea></td>
+<!-- <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>-->
+  </tr>
+</table>
+</fieldset>
+                    
+     <table width="150" border="0">
+  <tr>
+    <td>GOA:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Analiza Ing-Eqp:</td>
+    <td><input name="Pendiente" type="checkbox" value="" /></td>
+    <td>F_OK_Ing-Eqp:</td>
+    <td><input name="Pendiente" type="checkbox" value="" /></td>
+  </tr>
+  <tr>
+    <td>Central:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Zona:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>N_ctrl:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+  <tr>
+    <td>Grupo de Proyecto:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Edo_proy_rda:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Observaciones:</td>
+    <td><textarea name="obs_tramo" cols="32" rows="1">&nbsp;</textarea></td>
+  </tr>
+  <tr>
+    <td>Fecha_prog:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Vencido:</td>
+    <td><input name="Pendiente" type="checkbox" value="" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Documento p&aacute;g. Web:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Cancelado:</td>
+    <td><input name="Pendiente" type="checkbox" value="" /></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<table width="100" border="1">
+  <tr>
+    <td>
+<fieldset>
+    <legend>Site</legend>
+     <table width="50" border="1">
+  <tr>
+    <td>F Entrega Esp</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>F Rec Site</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+</table>
+</fieldset>
+    </td>
+    <td>
+<fieldset>
+    <legend>Proyecto:</legend>
+     <table width="50" border="1">
+  <tr>
+    <td>PrTxStatus:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>F Proy Concl</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+</table>
+</fieldset>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<fieldset>
+    <legend>Fibra Opt&iacute;ca:</legend>
+    <table width="50" border="1">
+  <tr>
+    <td>FO status:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>F Term Real FO</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+  <tr>
+    <td>Problem&aacute;tica:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</fieldset>
+    </td>
+    <td>
+<fieldset>
+    <legend>Construcci&oacute;n:</legend>
+     <table width="50" border="1">
+  <tr>
+    <td>Const Status:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+    <td>Fecha Liq.:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+</table>
+</fieldset>
+    </td>
+  </tr>
+</table>
+    </p>
+    
+    <p class="content">
+<table width="100" border="1">
+  <tr>
+    <td>
+<fieldset>
+    <legend>Construcci&oacute;n:</legend>
+<table width="50" border="1">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Relacionado a:</td>
+    <td><input type="text" name="referencia" id="referencia" class="txtbox" value="" /></td>
+  </tr>
+</table>
+</fieldset>
+    </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+    </p>
+    
+    <p class="content">
+        Donec feugiat tellus nec tortor ultrices mollis. Sed ut nunc ac dui fermentum rutrum. Duis interdum gravida gravida. Duis non ligula sit amet lacus iaculis ornare. Morbi quis purus elementum ante luctus iaculis vel vitae justo. Nullam quis neque sed lorem hendrerit hendrerit. Etiam sagittis, quam et sagittis lacinia, turpis tellus scelerisque lacus, venenatis pulvinar lectus lectus vitae ligula. Quisque vel nibh nunc, non mattis lectus. Praesent et purus urna, a porttitor lorem. Sed lorem nibh, consectetur vel imperdiet in, tempor et sapien. Aliquam erat volutpat.
+    </p>
+        <p class="content">
+        Sed cursus tristique bibendum. Quisque et diam mattis erat accumsan tincidunt id eu libero. Ut commodo ante ut tortor iaculis eget cursus magna pretium. Sed non enim arcu. Aenean mattis auctor lacinia. Nunc vel diam quis purus hendrerit viverra. Quisque porttitor magna a sem suscipit dapibus. Vivamus et lectus turpis, at ornare dolor. Aliquam enim metus, porta eget dapibus nec, mollis a lacus. Aliquam id tortor in justo tristique sodales quis nec orci. Cras placerat, orci at egestas dictum, augue purus varius quam, nec blandit nulla odio nec tellus. Nulla egestas congue blandit. Duis ultricies, quam in pretium semper, metus justo congue justo, a pretium diam velit ut urna. Vestibulum fermentum bibendum nunc, ac volutpat ligula pellentesque in. Praesent blandit libero a nunc vulputate fermentum ac nec est. Donec est arcu, aliquam in vulputate a, consectetur in dolor. Pellentesque pulvinar auctor dapibus. Proin elit libero, facilisis vel ultricies vel, bibendum in sem. 
+    </p>
+
+</div>
+
+<!--<div>
+    <h2>New tab title</h2>
+    <div class="input-wrapper"><div>
+        <input type="text" name="title" value="" id="new-tab-title" />
+    </div></div>
+    <h2>New tab content</h2>
+    <div class="input-wrapper"><div>
+        <textarea cols="20" rows="4" name="content" id="new-tab-content"> </textarea>
+    </div></div>
+    <button id="new-tab" style="margin-top:1em;">Add tab</button>
+</div>-->
+
+</body>
+
+</html>

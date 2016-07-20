@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="benchmark.php" server="10.94.130.36" local="130103528528343973" remote="130071060000000000" Dst="2" />
+<file name="client.php" server="10.94.130.36" local="130103528528813686" remote="130071060000000000" Dst="2" />
+<file name="pdo.php" server="10.94.130.36" local="130103528529126828" remote="130071060000000000" Dst="2" />
+<file name="test-active-record.php" server="10.94.130.36" local="130103528529439970" remote="130071060000000000" Dst="2" />
+<file name="test-active-recs2.php" server="10.94.130.36" local="130103528529596541" remote="130071060000000000" Dst="2" />
+<file name="test-active-relations.php" server="10.94.130.36" local="130103528530066254" remote="130071060000000000" Dst="2" />
+<file name="test-active-relationsx.php" server="10.94.130.36" local="130103528530692538" remote="130071060000000000" Dst="2" />
+<file name="test-datadict.php" server="10.94.130.36" local="130103528530849109" remote="130071060000000000" Dst="2" />
+<file name="test-perf.php" server="10.94.130.36" local="130103528531005680" remote="130071060000000000" Dst="2" />
+<file name="test-pgblob.php" server="10.94.130.36" local="130103528531162251" remote="130071060000000000" Dst="2" />
+<file name="test-php5.php" server="10.94.130.36" local="130103528531475393" remote="130071060000000000" Dst="2" />
+<file name="test-xmlschema.php" server="10.94.130.36" local="130103528531788535" remote="130071060000000000" Dst="2" />
+<file name="test2.php" server="10.94.130.36" local="130103528532571390" remote="130071060000000000" Dst="2" />
+<file name="test3.php" server="10.94.130.36" local="130103528532884532" remote="130071060000000000" Dst="2" />
+<file name="test.php" server="10.94.130.36" local="130103528532571390" remote="130071060000000000" Dst="2" />
+<file name="test4.php" server="10.94.130.36" local="130103528535233097" remote="130071060000000000" Dst="2" />
+<file name="test5.php" server="10.94.130.36" local="130103528535859381" remote="130071060000000000" Dst="2" />
+<file name="testcache.php" server="10.94.130.36" local="130103528536329094" remote="130071060000000000" Dst="2" />
+<file name="testgenid.php" server="10.94.130.36" local="130103528536798807" remote="130071060000000000" Dst="2" />
+<file name="testdatabases.inc.php" server="10.94.130.36" local="130103528536798807" remote="130071060000000000" Dst="2" />
+<file name="testmssql.php" server="10.94.130.36" local="130103528537111949" remote="130071060000000000" Dst="2" />
+<file name="testoci8.php" server="10.94.130.36" local="130103528537581662" remote="130071060000000000" Dst="2" />
+<file name="testoci8cursor.php" server="10.94.130.36" local="130103528538051375" remote="130071060000000000" Dst="2" />
+<file name="testpaging.php" server="10.94.130.36" local="130103528538207946" remote="130071060000000000" Dst="2" />
+<file name="testpear.php" server="10.94.130.36" local="130103528538990801" remote="130071060000000000" Dst="2" />
+<file name="testsessions.php" server="10.94.130.36" local="130103528539303943" remote="130071060000000000" Dst="2" />
+<file name="test_rs_array.php" server="10.94.130.36" local="130103528539617085" remote="130071060000000000" Dst="2" />
+<file name="time.php" server="10.94.130.36" local="130103528540086798" remote="130071060000000000" Dst="2" />
+<file name="tmssql.php" server="10.94.130.36" local="130103528540556511" remote="130071060000000000" Dst="2" />
+<file name="xmlschema-mssql.xml" server="10.94.130.36" local="130103528540556511" remote="130071060000000000" Dst="2" />
+<file name="xmlschema.xml" server="10.94.130.36" local="130103528542748505" remote="130071060000000000" Dst="2" />
+</dwsync>

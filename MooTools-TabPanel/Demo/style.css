@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+	color:#000;
+	background: rgb(206,219,233);
+	}
+
+ul.tabs {
+    margin: 0;
+    padding: 0 0 2px 0;
+}
+
+li.tab {
+    display: inline;
+    padding: 4px .4em 2px .4em;
+    list-style: none;
+    background-color: rgb(206,219,233);
+    border: 1px #333 solid;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+li.tab.active {
+    background-color: rgb(135,224,253);	
+    border-bottom-color: #111;
+}
+
+li.tab .remove {
+    color: #900;
+}
+
+p.content {
+    margin: 0 0 1em 0;
+    padding: .4em;
+    border: 1px #333 solid;
+}
+	.Texto_Chico_Negro {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size: 8px;
+		color: #000000;
+	}
+	.Texto_Mediano_Negro {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size: 12px;
+		color: #000000;
+	}
+		.combo_1
+		{	
+		width: 55px;
+		font-family:Arial, Helvetica, sans-serif;
+		size: 10px;
+		background-color:#FFF;
+		color:#666;
+		}
+	     .combos_2
+		{
+			width:400px;
+			height:50px;
+			font-family:Verdana, Geneva, sans-serif;
+			color:#666;
+			font-size:12px;
+
+		}
+		.combos_3
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		size: 10px;
+		background-color:#FFF;
+		color:#666;
+		}
+		.combos_4
+	{
+		width: 250px;
+		font-family:Arial, Helvetica, sans-serif;
+		size: 10px;
+		background-color:#FFF;
+		color:#666;
+		}
+		.combo_red
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:white;
+		size: 4px;
+		background-color:#F03;
+		}
+		.combo_green
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#9F9;
+		}
+		.combo_green_ch
+	{
+		width: 55px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#9F9;
+		}
+		.combo_yellow
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#FF6;
+		}
+		.combo_blue
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#ABDEDE;
+		}
+		.combo_pink
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#F90;
+		}
+		.combo_pink_ch
+	{
+		width: 50px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#F90;
+		}
+		.combo_purple
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:black;
+		size: 4px;
+		background-color:#C9C;
+		}
+		.combo_azul
+	{
+		width: 150px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:white;
+		size: 4px;
+		background-color:#009;
+		}

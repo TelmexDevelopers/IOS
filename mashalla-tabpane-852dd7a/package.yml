@@ -1,0 +1,11 @@
+name: Accessible TabPanel
+author: mashalla
+category: Widgets
+tags: [TabPanel, tabs, organize, element, window, style]
+#docs: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
+demo: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
+current: 1.1
+
+sources:
+  - "Source/tabPane.js"
+  - "Source/demo.js"

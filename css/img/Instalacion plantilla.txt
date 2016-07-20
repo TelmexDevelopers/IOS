@@ -1,0 +1,16 @@
+<-- Cositaspatuweb.jimdo.com --!>
+
+Para instalar esta plantilla en su web Jimdo sigan estos pasos:
+
+1- Abrir el archivo (boton derecho-abrir con bloc de notas) "HTML" que esta en la carpeta descargada y copiar todo el codigo. En nuestra web Jimdo ir a Ajustes-Plantillas-Plantilla Propia-HTML, borran todo el codigo que este ahi y pegan el que copiaron antes.
+
+2- Abrir el archivo (boton derecho-abrir con bloc de notas) "CSS" que esta en la carpeta descargada y copiar todo el codigo. En nuestra web Jimdo ir a Ajustes-Plantillas-Plantilla Propia-CSS, borran todo el codigo que este ahi y pegan el que copiaron antes.
+
+3- Este paso es para que se le vean las imagenes, en nuestra web Jimdo ir a Ajustes-Plantillas-Plantilla Propia-Archivos y ahi seleccionamos y subimos todas las imagenes que se encuentrar en la carpeta descargada.
+
+4- El ultimo paso es editar todos los textos y enlaces a vuestro gusto.
+
+Si tienen alguna duda contactar conmigo y les ayudaremos.
+Contacto: cositaspatuweb@hotmail.com
+
+<-- Cositaspatuweb.jimdo.com --!>

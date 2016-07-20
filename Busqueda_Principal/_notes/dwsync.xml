@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Busqueda_CNS.php" server="10.94.130.36" local="130150188855976554" remote="130150190400000000" Dst="2" />
+<file name="filial_search_ref.php" server="10.94.130.36" local="130143494185063959" remote="130112532000000000" Dst="2" />
+<file name="Equipamiento.php" server="10.94.130.36" local="130156067641250000" remote="130123764000000000" Dst="2" />
+<file name="Busqueda_Principal.php" server="10.94.130.36" local="130179725226620974" remote="130179727200000000" Dst="2" />
+<file name="autocomplete_filial.php" server="10.94.130.36" local="130103528569678717" remote="130071060000000000" Dst="2" />
+<file name="ajax.js" server="10.94.130.36" local="130103528563102735" remote="130071060000000000" Dst="2" />
+<file name="asigna_ipes.php" server="10.94.130.36" local="130143494175532648" remote="130112532000000000" Dst="2" />
+<file name="Autocompleter.css" server="10.94.130.36" local="130103528568895862" remote="130071060000000000" Dst="2" />
+<file name="autocomplete_cns.php" server="10.94.130.36" local="130180284801718750" remote="130147956000000000" Dst="2" />
+<file name="autocomplete1.php" server="10.94.130.36" local="130103528568582720" remote="130071060000000000" Dst="2" />
+<file name="autocomplete_equipamiento.php" server="10.94.130.36" local="130112027175820174" remote="130077972000000000" Dst="2" />
+<file name="Autocomplete_Principal.php" server="10.94.130.36" local="130112027176757674" remote="130077972000000000" Dst="2" />
+<file name="busqueda_Telmex.php" server="10.94.130.36" local="130103528571400998" remote="130071060000000000" Dst="2" />
+<file name="busqueda_tramos.php" server="10.94.130.36" local="130103528571714140" remote="130071060000000000" Dst="2" />
+<file name="busqueda_validate_text.php" server="10.94.130.36" local="130103528571870711" remote="130071060000000000" Dst="2" />
+<file name="CNS_LIBRERIA.php" server="10.94.130.36" local="130103528573279850" remote="130071060000000000" Dst="2" />
+<file name="CNS_TEMPLATE2.php" server="10.94.130.36" local="130103528573749563" remote="130071060000000000" Dst="2" />
+<file name="connection.php" server="10.94.130.36" local="130103528574062705" remote="130071060000000000" Dst="2" />
+<file name="equipamiento_paginacion.php" server="10.94.130.36" local="130162997437629891" remote="130131540000000000" Dst="2" />
+<file name="filial.php" server="10.94.130.36" local="130103528576724412" remote="130071060000000000" Dst="2" />
+<file name="filial_paginacion_0.php" server="10.94.130.36" local="130143494184438955" remote="130112532000000000" Dst="2" />
+<file name="formato.html" server="10.94.130.36" local="130167325064838613" remote="130134996000000000" Dst="2" />
+<file name="formato2.html" server="10.94.130.36" local="130113718758125000" remote="130082292000000000" Dst="2" />
+<file name="formato3.html" server="10.94.130.36" local="130119786477500000" remote="130088340000000000" Dst="2" />
+<file name="formato4.html" server="10.94.130.36" local="130119786478281250" remote="130088340000000000" Dst="2" />
+<file name="formato_style.css" server="10.94.130.36" local="130171652177981647" remote="130138452000000000" Dst="2" />
+<file name="impresion_des_serv.php" server="10.94.130.36" local="130103528617589443" remote="130071060000000000" Dst="2" />
+<file name="impresion_OT.php" server="10.94.130.36" local="130103528617902585" remote="130071924000000000" Dst="2" />
+<file name="index.php" server="10.94.130.36" local="130103528619938008" remote="130071060000000000" Dst="2" />
+<file name="ios.css" server="10.94.130.36" local="130103528620564292" remote="130071060000000000" Dst="2" />
+<file name="ios_prueba.php" server="10.94.130.36" local="130103528620877434" remote="130071060000000000" Dst="2" />
+<file name="ios_prueba1.php" server="10.94.130.36" local="130103528621034005" remote="130071060000000000" Dst="2" />
+<file name="ios_prueba_copia.php" server="10.94.130.36" local="130103528622130002" remote="130071060000000000" Dst="2" />
+<file name="JOSE.php" server="10.94.130.36" local="130103528622443144" remote="130071060000000000" Dst="2" />
+<file name="libreria_equipamiento.php" server="10.94.130.36" local="130103528622756286" remote="130071060000000000" Dst="2" />
+<file name="libreria_filial.php" server="10.94.130.36" local="130103528623069428" remote="130071060000000000" Dst="2" />
+<file name="libreria_filial_0.php" server="10.94.130.36" local="130112914664594720" remote="130081428000000000" Dst="2" />
+<file name="Libreria_Principal.php" server="10.94.130.36" local="130179731266032301" remote="130179733200000000" Dst="2" />
+<file name="login.php" server="10.94.130.36" local="130103528639822525" remote="130071060000000000" Dst="2" />
+<file name="mootools-core-1.4.5-full-compat.js" server="10.94.130.36" local="130103528640761951" remote="130071060000000000" Dst="2" />
+<file name="mootools-more.js" server="10.94.130.36" local="130103528642797374" remote="130071060000000000" Dst="2" />
+<file name="mootools-more-1.4.0.1.js" server="10.94.130.36" local="130103528641231664" remote="130071060000000000" Dst="2" />
+<file name="orden_trabajo.php" server="10.94.130.36" local="130103528643110516" remote="130071060000000000" Dst="2" />
+<file name="paginacion - Copia [2].php" server="10.94.130.36" local="130103528643423658" remote="130071060000000000" Dst="2" />
+<file name="paginacion - Copia [3].php" server="10.94.130.36" local="130103528643736800" remote="130071060000000000" Dst="2" />
+<file name="paginacion - Copia.php" server="10.94.130.36" local="130103528644049942" remote="130071060000000000" Dst="2" />
+<file name="Paginacion_CNS.php" server="10.94.130.36" local="130159602483624644" remote="130125492000000000" Dst="2" />
+<file name="paginacion_copia.php" server="10.94.130.36" local="130103528644519655" remote="130071060000000000" Dst="2" />
+<file name="paginacion_equipamiento.php" server="10.94.130.36" local="130103528645302510" remote="130071060000000000" Dst="2" />
+<file name="paginacion_equipamiento1.php" server="10.94.130.36" local="130103528645459081" remote="130071060000000000" Dst="2" />
+<file name="paginacion_filial.php" server="10.94.130.36" local="130107753257122011" remote="130076244000000000" Dst="2" />
+<file name="Paginacion_Principal.php" server="10.94.130.36" local="130179734057112498" remote="130179736200000000" Dst="2" />
+<file name="print_formato2.php" server="10.94.130.36" local="130107753259153274" remote="130076244000000000" Dst="2" />
+<file name="print_formato4.php" server="10.94.130.36" local="130107753259309525" remote="130076244000000000" Dst="2" />
+<file name="print_ot.php" server="10.94.130.36" local="130103528650625924" remote="130071060000000000" Dst="2" />
+<file name="registro_OT.php" server="10.94.130.36" local="130103528651095637" remote="130071060000000000" Dst="2" />
+<file name="registro_OT_SQL.php" server="10.94.130.36" local="130103528651252208" remote="130071060000000000" Dst="2" />
+<file name="tramos_paginacion.php" server="10.94.130.36" local="130159602599894559" remote="130125492000000000" Dst="2" />
+<file name="validacion_ejemplo.php" server="10.94.130.36" local="130103528754119355" remote="130071060000000000" Dst="2" />
+<file name="formato_1.html" server="10.94.130.36" local="130129415690566064" remote="130096116000000000" Dst="2" />
+<file name="formato_2.html" server="10.94.130.36" local="130119786478437500" remote="130088340000000000" Dst="2" />
+<file name="formato_4.html" server="10.94.130.36" local="130113718760156250" remote="130082292000000000" Dst="2" />
+<file name="formato_3.html" server="10.94.130.36" local="130107753222434289" remote="130075380000000000" Dst="2" />
+<file name="print_formato_1.php" server="10.94.130.36" local="130171652226655831" remote="130137588000000000" Dst="2" />
+<file name="print_formato_2.php" server="10.94.130.36" local="130143494231939259" remote="130112532000000000" Dst="2" />
+<file name="print_formato_3.php" server="10.94.130.36" local="130143494232876765" remote="130112532000000000" Dst="2" />
+<file name="print_formato_4.php" server="10.94.130.36" local="130143494232564263" remote="130112532000000000" Dst="2" />
+<file name="Busqueda_Principal_ Copy.php" server="10.94.130.36" local="130180284804687500" remote="130148820000000000" Dst="2" />
+<file name="Libreria_Principal_Copy.php" server="10.94.130.36" local="130150318695000000" remote="130150172400000000" Dst="2" />
+<file name="LIB_SEARCH_F.php" server="10.94.130.36" local="130107753239309397" remote="130076244000000000" Dst="2" />
+<file name="Paginacion_Principal_Copy.php" server="10.94.130.36" local="130150318712187500" remote="130150189800000000" Dst="2" />
+<file name="PAG_SEARCH_F.php" server="10.94.130.36" local="130107753258372019" remote="130076244000000000" Dst="2" />
+<file name="SEARCH_REF_FILIAL.php" server="10.94.130.36" local="130107753282747175" remote="130076244000000000" Dst="2" />
+<file name="COPY_TEST.php" server="10.94.130.36" local="130112914636313470" remote="130081428000000000" Dst="2" />
+<file name="Libreria_Principal_test.php" server="10.94.130.36" local="130112914665844720" remote="130081428000000000" Dst="2" />
+<file name="Paginacion_Principal_e2hp2k2nc6.php" server="10.94.130.36" local="130117199331774901" remote="130084020000000000" Dst="2" />
+<file name="Libreria_Principal_01.php" server="10.94.130.36" local="130117601202802140" remote="130086612000000000" Dst="2" />
+<file name="logout.php" server="10.94.130.36" local="130125873816549170" remote="130094388000000000" Dst="2" />
+<file name="header1.php" server="10.94.130.36" local="130129415691816048" remote="130096116000000000" Dst="2" />
+<file name="inicio.php" server="10.94.130.36" local="130130207561513079" remote="130098708000000000" Dst="2" />
+<file name="reporte_busqueda.php" server="10.94.130.36" local="130178694111108303" remote="130178696400000000" Dst="2" />
+<file name="consulta_x_referencia.php" server="10.94.130.36" local="130143494181001433" remote="130112532000000000" Dst="2" />
+<file name="paginacion_consulta_x_referencia.php" server="10.94.130.36" local="130143494228814239" remote="130112532000000000" Dst="2" />
+<file name="json_combo_ipe.php" server="10.94.130.36" local="130156067697656250" remote="130154697600000000" Dst="2" />
+<file name="Busqueda_Principal_Combos.php" server="10.94.130.36" local="130150318660781250" remote="130119444000000000" Dst="2" />
+<file name="Busqueda_Principal_ Copy_1.php" server="10.94.130.36" local="130129415674003776" remote="130096116000000000" Dst="2" />
+<file name="json_ejemplo.php" server="10.94.130.36" local="130153511004310416" remote="130120308000000000" Dst="2" />
+<file name="Busqueda_Principal_jose_copia.php" server="10.94.130.36" local="130159602414643030" remote="130126356000000000" Dst="2" />
+<file name="json_combo_ipe_copia_jose.php" server="10.94.130.36" local="130149265029375000" remote="130117716000000000" Dst="2" />
+<file name="Busqueda_Principal_kike.php" server="10.94.130.36" local="130171652146312226" remote="130138452000000000" Dst="2" />
+<file name="conexion.php" server="10.94.130.36" local="130154412830450822" remote="130122900000000000" Dst="2" />
+<file name="new_selecct.php" server="10.94.130.36" local="130153511023216545" remote="130120308000000000" Dst="2" />
+<file name="select_dependientes.css" server="10.94.130.36" local="130154412940450822" remote="130122900000000000" Dst="2" />
+<file name="select_dependientes.php" server="10.94.130.36" local="130154412941544572" remote="130122900000000000" Dst="2" />
+<file name="select_dependientes.js" server="10.94.130.36" local="130154412940919572" remote="130122900000000000" Dst="2" />
+<file name="select_dependientes_proceso.php" server="10.94.130.36" local="130154412941857072" remote="130122900000000000" Dst="2" />
+<file name="test_combo_select.php" server="10.94.130.36" local="130153511117278443" remote="130120308000000000" Dst="2" />
+<file name="reporte_CNS.php" server="10.94.130.36" local="130156067739843750" remote="130123764000000000" Dst="2" />
+<file name="reporte_equipamiento.php" server="10.94.130.36" local="130162997514622194" remote="130131540000000000" Dst="2" />
+<file name="example_1.php" server="10.94.130.36" local="130156067644062500" remote="130124628000000000" Dst="2" />
+<file name="Equipamiento_FO.php" server="10.94.130.36" local="130153502340629222" remote="130153504200000000" Dst="2" />
+<file name="equipamiento_paginacion_FO.php" server="10.94.130.36" local="130180284812968750" remote="130147956000000000" Dst="2" />
+<file name="reporte_equipamiento_FO.php" server="10.94.130.36" local="130180284864375000" remote="130149684000000000" Dst="2" />
+<file name="Formato_ot_FO.html" server="10.94.130.36" local="130180284825000000" remote="130141044000000000" Dst="2" />
+<file name="Formato_ot_FO.php" server="10.94.130.36" local="130171652177825640" remote="130138452000000000" Dst="2" />
+<file name="Libreria_OT_construccion.php" server="10.94.130.36" local="130180284842031250" remote="130141908000000000" Dst="2" />
+<file name="print_formato_ot_fo.php" server="10.94.130.36" local="130180284861093750" remote="130179666600000000" Dst="2" />
+<file name="tabla_dising.php" server="10.94.130.36" local="130168250807815347" remote="130137588000000000" Dst="2" />
+<file name="Formato_ot_FO - Copia.html" server="10.94.130.36" local="130171652174237479" remote="130138452000000000" Dst="2" />
+<file name="Busqueda_Analisis.php" server="10.94.130.36" local="130180284803437500" remote="130141908000000000" Dst="2" />
+<file name="busqueda_final.php" server="10.94.130.36" local="130180284804218750" remote="130141908000000000" Dst="2" />
+<file name="CNS.php" server="10.94.130.36" local="130180284807187500" remote="130141908000000000" Dst="2" />
+<file name="CNS1.php" server="10.94.130.36" local="130180284807343750" remote="130141908000000000" Dst="2" />
+<file name="filial_paginacion.php" server="10.94.130.36" local="130180284814062500" remote="130141908000000000" Dst="2" />
+<file name="formato2 - Copia.html" server="10.94.130.36" local="130180284821406250" remote="130141908000000000" Dst="2" />
+<file name="formato3 - Copia.html" server="10.94.130.36" local="130180284822187500" remote="130141908000000000" Dst="2" />
+<file name="index_busqueda0.php" server="10.94.130.36" local="130180284838125000" remote="130141908000000000" Dst="2" />
+<file name="libreria.php" server="10.94.130.36" local="130180284840468750" remote="130141908000000000" Dst="2" />
+<file name="Libreria_Analisis.php" server="10.94.130.36" local="130180284840937500" remote="130141908000000000" Dst="2" />
+<file name="Paginacion_Analisis.php" server="10.94.130.36" local="130180284856875000" remote="130141908000000000" Dst="2" />
+<file name="reporte.php" server="10.94.130.36" local="130180284863593750" remote="130141908000000000" Dst="2" />
+<file name="Search_Filial.php" server="10.94.130.36" local="130180284879843750" remote="130141908000000000" Dst="2" />
+<file name="select_.php" server="10.94.130.36" local="130180284880000000" remote="130141908000000000" Dst="2" />
+<file name="Formato_ot_FO_TEST.html" server="10.94.130.36" local="130180284825781250" remote="130178901000000000" Dst="2" />
+<file name="Equipamiento_FO_combos.php" server="10.94.130.36" local="130179745160074347" remote="130179747600000000" Dst="2" />
+<file name="equipamiento_paginacion_FO_combos.php" server="10.94.130.36" local="130161660114191548" remote="130161661800000000" Dst="2" />
+<file name="Formato_ot_FO - Copia [2].html" server="10.94.130.36" local="130180284824062500" remote="130144500000000000" Dst="2" />
+<file name="Libreria_equipamiento_FO.php" server="10.94.130.36" local="130161653049615085" remote="130161655200000000" Dst="2" />
+<file name="prioridad_lib.php" server="10.94.130.36" local="130180284861562500" remote="130142772000000000" Dst="2" />
+<file name="autocomplete_direccion.php" server="10.94.130.36" local="130153510957748214" remote="130150388400000000" Dst="2" />
+<file name="Busqueda_Principal_1.php" server="10.94.130.36" local="130153510961029443" remote="130150401000000000" Dst="2" />
+<file name="reporte_general.php" server="10.94.130.36" local="130150318716250000" remote="130150295400000000" Dst="2" />
+</dwsync>
